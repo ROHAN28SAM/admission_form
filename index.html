@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYPSOC BE Computer Admission form</title>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class = "bg" src="bg.jpeg" alt="DYPSOC">
+    <div class="container">
+        <h1>Dr. D Y Patil SOE, Lohegaon, Pune</h1>
+        <h3>Admission Form for BE Course in Computer</h3>
+        <p>Enter your details to assure your seat at our institute</p>
+        
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="contact" name="contact" id="contact" placeholder="Enter your contact number">
+            <input type="text" name="degree" id="degree" placeholder="Enter your grades of highest degree">
+            <textarea name="other" id="other" cols="30" rows="10" placeholder="Enter more information about you.."></textarea>
+            <button class="btn" type="submit">submit</button>
+        </form>
+        <p class="msg">Thank you for your interest !</p>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
